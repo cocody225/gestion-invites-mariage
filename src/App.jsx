@@ -17,7 +17,6 @@ const appId = import.meta.env.VITE_CUSTOM_APP_ID || 'default-wedding-app';
 
 // --- Initial Guest Data from PDF (VERBATIM) ---
 const initialGuestData = [
-    // ... La liste complète des 507 invités est ici ...
     { title: "Mr", lastName: "ABBI", firstName: "Blaise (Ex. Ministre)", category: "VIP", table: "1" },
     { title: "Mme", lastName: "ABBI", firstName: "Blaise", category: "VIP", table: "1" },
     { title: "Mr", lastName: "ABLO", firstName: "Jean Marc Auxence", category: "", table: "13" },
